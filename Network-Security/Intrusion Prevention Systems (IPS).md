@@ -1,4 +1,4 @@
-<h1> IPS Nedir? </h1>
+<h1 align="center"> IPS Nedir? </h1>
 
 IPS (Intrusion Prevention System), bir çeşit siber saldırı önleme sistemidir. Genel olarak güvenlik duvarının arkasında oluşturulan bu önleme sistemi, 
 tehlikeli ve güvenilir içerikleri analiz edip ayırt etmek üzerine kurulmuş bir katman sayesinde gerçekleştirilir. 
