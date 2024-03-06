@@ -11,7 +11,8 @@ Yani günün sonunda saldırgan, son kullanıcının haberi olmadan onun kulland
 <br>
 Aşağıdaki örnek, web sitesi sahiplerine yorum yapmak için kullanılan basit bir HTML formu içermektedir.
 
-![CSRF-1](https://github.com/oakkaya098/Web-Security/assets/152402130/6cac5f76-0ee9-4547-9245-e2b33a8831fc)
+![CSRF-1](https://github.com/oakkaya098/Cyber-Security/assets/152402130/d891f125-b9aa-4cc5-8096-fd9f1225c3d8)
+
 
 Daha sonra blogları görüntüle dediğimizde “deneme2” olarak açtığım bloğun eklenmiş olduğunu görüyoruz.
 
