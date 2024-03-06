@@ -1,11 +1,11 @@
-<h1> Firewall Nedir? </h1>
+<h1 align="center"> Firewall Nedir? </h1>
 
 Firewallar ilgili sistemdeki ağ girişi üzerindeki ilk güvenlik önlemidir. 
 Yani herhangi bir verinin internetten veya diğer ağlardan sizin ağınıza ulaşabilmesi için güvenlik duvarını geçmesi gerekir. 
 Bu sistem veri paketlerinin tanımlı kurallara uygun olup olmadığını kontrol eder ve paket geçiş iznini belirler. 
 Yetkisiz erişim, virüs veya diğer kötü amaçlı yazılımların ağa sızması engellenebilir.
 
-<h1> Firewall Nasıl Çalışır? </h1>
+<h2> Firewall Nasıl Çalışır? </h2>
 
 Firewall, veri aktarımı sırasında güvenlik mekanizması oluşturarak yetkisiz kaynaklardan gelen trafiği otomatik olarak engelleme özelliği sunar. 
 Bu sayede sahte ve yetkisiz erişim önlenerek siber saldırganların ağdaki cihazlara sızma ihtimali ortadan kalkar.
@@ -26,7 +26,7 @@ Bu sistemin çalışma mantığında öncelikli konulardan biri erişimi kontrol
   <li> Çeşitli uyarı ve etkinlikleri özetleme </li>
 </ul>
 
-<h1> Firewall Türleri Nelerdir? </h1>
+<h2> Firewall Türleri Nelerdir? </h2>
 
 Firewall türleri üç ana kategoride incelenir: yazılım, donanım amaçlı, ve mimariye göre.
 
