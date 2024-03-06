@@ -16,27 +16,32 @@ Aşağıdaki örnek, web sitesi sahiplerine yorum yapmak için kullanılan basit
 
 Daha sonra blogları görüntüle dediğimizde “deneme2” olarak açtığım bloğun eklenmiş olduğunu görüyoruz.
 
-![CSRF-2](https://github.com/oakkaya098/Web-Security/assets/152402130/dd4e532a-a894-4a63-87ce-5c9bb8370f95)
+![CSRF-2](https://github.com/oakkaya098/Cyber-Security/assets/152402130/f710d408-d782-43ba-944b-86f17d61ced7)
+
 
 Şimdi en basit yöntem ile HTML injection kullanarak sistemdeki CSRF zafiyetini exploit edebiliriz
 
 Bizden blog mesajı istediği girdi alanına yukarıdaki html form kodlarını ekledik ve en aşağı satıra javascript ile bir event yerleştirdik. Eventin görevi fare her konu üzerine geldiğinde kendi kendine başlık3 adında bir blog daha açacak.
 
-![CSRF-3](https://github.com/oakkaya098/Web-Security/assets/152402130/250a06c4-207a-4482-82a0-2f7138961834)
+![CSRF-3](https://github.com/oakkaya098/Cyber-Security/assets/152402130/ffb572cd-c1ff-4d70-ba71-07a1bcd13977)
+
 
 Yukarıda görüldüğü üzere italik metin parametresi arasına javascript kodumuzu ekledik.
 Bu kısımdaki gerçekleştirilen işlem ise fare her “Zafiyet yaratacak başlığımız burada”  başlığına geldiğinde tıklanmasına gerek kalmadan sistemde form ID değeri f olan formu post isteği ile yollayacak.
 Böylelikle sürekli başlık3 adında yeni blog oluşacak.
 
-![CSRF-4](https://github.com/oakkaya098/Web-Security/assets/152402130/e3fedec2-da8d-4cc4-9b3b-887d4885356c)
+![CSRF-4](https://github.com/oakkaya098/Cyber-Security/assets/152402130/73f4e4ce-bf72-427c-860b-98ed74e6075b)
+
 
 Blog başlığı üzerine gelindiğinde aşağıda görüldüğü gibi sisteme post metodu ile isteği yolluyor.
 
-![CSRF-5](https://github.com/oakkaya098/Web-Security/assets/152402130/0fbb05f6-1f0b-4ae3-8113-ae4c2ed47f21)
+![CSRF-5](https://github.com/oakkaya098/Cyber-Security/assets/152402130/7c3b774d-ad0b-4c25-8dcf-2ce92db27639)
+
 
 Blogları görüntülediğimizde yine üzerine geldiğimizde aynı şekilde post metodu ile istek yapıyor.
 
-![CSRF-6](https://github.com/oakkaya098/Web-Security/assets/152402130/cb0d75b3-e3ba-49a2-bcd5-b670a99560de)
+![CSRF-6](https://github.com/oakkaya098/Cyber-Security/assets/152402130/323f5635-5771-413c-bbc6-b9a4d03cbfb2)
+
 
 Burada token güvenliğinin sağlanmamasından, girdi alanının kontrol edilmemesinden kaynaklı CSRF zafiyetini istismar edebilir hale geliyoruz.  
 Mağdurlar bloğu ziyaret etmek istediğinde blog eklemek yerine oturumlarını çalabilecek daha tehlikeli kodlar çalıştırılabilir.
@@ -75,7 +80,8 @@ Mağdurlar bloğu ziyaret etmek istediğinde blog eklemek yerine oturumlarını 
 CSRF Token yöntemi temelde benzersiz ve gizli bir değer alarak formlara gömülen ve bu sayede kullanıcının başarıyla oturum açma işleminden sonra oluşturulan değerdir. 
 Bu değer patern yöntemlerine göre farklı şekillerde saklanabilir. Aşağıda bununla ilgili örnek eklenmiştir.
 
-![CSRF-7](https://github.com/oakkaya098/Web-Security/assets/152402130/fed69cd9-5c9f-4fe6-a4c5-a57e550c6d21)
+![CSRF-7](https://github.com/oakkaya098/Cyber-Security/assets/152402130/ae5b836a-e18c-4ae2-81dc-c49ae57f393e)
+
 
 <h1> Token Patern Yöntemleri <br> <br>
 1.CSRF Synchronizer Token Pattern Yöntemi
@@ -111,11 +117,13 @@ Sunucu, form parametresi olarak gönderilen tokeni, çerez değerine bakarak do�
 
 Aşağıda Double Submit Cookie Pattern Yönteminin çalışma mantığı ile ilgili şema eklenmiştir.
 
-![CSRF-8](https://github.com/oakkaya098/Web-Security/assets/152402130/45682c97-9374-4045-a1d6-aa29c74ff2de)
+![CSRF-8](https://github.com/oakkaya098/Cyber-Security/assets/152402130/ecff9331-f0b6-4e7a-b361-736e681f4cd7)
+
 
 Daha önce iki farklı cookie’nin tutulduğunu söylemiştim bu 2 farklı cookie aşağıdaki gibi saklanmaktadır.
 
-![CSRF-9](https://github.com/oakkaya098/Web-Security/assets/152402130/4cf50f7c-364a-49e8-87c9-137229228656)
+![CSRF-9](https://github.com/oakkaya098/Cyber-Security/assets/152402130/a5588469-f22e-4b2e-9d02-685846c521b0)
+
 
 <h2> İki Pattern Yönteminin Karşılaştırılması </h2>
 
@@ -143,11 +151,13 @@ Eğer saldırgan CSRF çerezlerini ayarlayabilirse bypass işlemini gerçekleşt
 
 Bu çerezlerin yanıtlanması için belli bir sayfa kullanılır aşağıda görüldüğü üzere submit sayfası ile işlem yapıyor.
 
-![CSRF-10](https://github.com/oakkaya098/Web-Security/assets/152402130/9cf4b06f-7534-4a2d-92ad-fc80e387aa2b)
+![CSRF-10](https://github.com/oakkaya098/Cyber-Security/assets/152402130/e4f28564-7f4e-422a-ab69-f95129b15b89)
+
 
 Saldırganlar aşağıda görüldüğü üzere submit adresine gönderilen çerezleri kontrol edebilir ve izleyebilir bir hale geldi.
 
-![CSRF-11](https://github.com/oakkaya098/Web-Security/assets/152402130/4daf85ea-2062-461c-ac20-292e30771a9e)
+![CSRF-11](https://github.com/oakkaya098/Cyber-Security/assets/152402130/9081f4ea-d965-4dfd-84c1-b859cc973df0)
+
 
 Tüm subdomainleri kontrol etmek güvenliği tam olarak sağlamaz çünkü;
 
