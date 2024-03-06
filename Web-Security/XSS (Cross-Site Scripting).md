@@ -7,7 +7,8 @@ SQL injectionları gibi diğer saldırı vektörlerinin aksine XSS uygulamayı d
 
 <h2> XSS (Cross-Site Scripting) Nasıl Çalışır? </h2>
 
-![XSS-1](https://github.com/oakkaya098/Web-Security/assets/152402130/630765f9-e617-40b6-ac39-082241a86f97)
+![XSS-1](https://github.com/oakkaya098/Cyber-Security/assets/152402130/846dabc5-002c-499e-b362-f8ea98f85051)
+
 
 Bilgisayar korsanlarının XSS gerçekleştirmek için öncelikle hedeflenen kişinin ziyaret ettiği bir web sitesine kötü amaçlı kodu (yük) enjekte etmenin bir yolunu bulması gerekir. 
 Yürütme, bir web sayfası yüklendiğinde veya bir kullanıcı köprüler gibi belirli öğelerin üzerine geldiğinde başka şekillerde tetiklenebilir.
@@ -69,7 +70,8 @@ Bunun yerine, özel olarak hazırlanmış bir bağlantıya yanıt olarak sunucud
 
 Reflected XSS, web uygulamalarında çok daha yaygındır ve yükün yalnızca bir istekte geçerli olduğu tek seferlik bir siber saldırı olduğu için daha az zararlı olarak kabul edilir.
 
-![XSS-2](https://github.com/oakkaya098/Web-Security/assets/152402130/fd6a9480-3c9f-46de-84f9-da02b9371e74)
+![XSS-2](https://github.com/oakkaya098/Cyber-Security/assets/152402130/3ca0a266-abbc-489f-a5c5-69755f5dc9e8)
+
 
 <h2> 3. DOM Tabanlı XSS </h2>
 
