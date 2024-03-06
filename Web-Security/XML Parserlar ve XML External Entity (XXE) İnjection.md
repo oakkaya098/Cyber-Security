@@ -5,7 +5,8 @@
 Kullanıcıdan alınan XML belgesi parse edilirken araya kendi döküman, entity tanımlarımızı yerleştirmemizle “Arbitrary File Read”, 
 “Command Execution” gibi kritik zaafiyetler elde edebildiğimiz bir güvenlik açığıdır.
 
-![XXE-1](https://github.com/oakkaya098/Web-Security/assets/152402130/3f506413-e402-4f20-bb3e-f4b9dda4b7fa)
+![XXE-1](https://github.com/oakkaya098/Cyber-Security/assets/152402130/019f7b35-5f97-42be-9544-d0f8c4dc0ab3)
+
 
 <h2> XXE güvenlik açığı sayesinde aşağıdaki saldırılar gerçekleştirilebilir: </h2>
 
@@ -28,7 +29,8 @@ Bu özelliği ile veri saklamanın yanında farklı sistemler arasında veri al�
 
 <h2> XML’in Özellikleri & Kuralları Nelerdir? </h2>
 
-![XXE-2](https://github.com/oakkaya098/Web-Security/assets/152402130/f8066748-178b-4147-a406-6c5d3a886fbd)
+![XXE-2](https://github.com/oakkaya098/Cyber-Security/assets/152402130/6897f4f6-4870-45d5-9328-29cde928d0c3)
+
 
 <ul> 
 
@@ -54,9 +56,11 @@ Harici bir kaynağa erişim sağlamak için XML’in desteklendiği SYSTEM nitel
 
 Aşağıdaki resimlerde internal ve external dtd’lerin nasıl tamınlanabileceği gösterilmiştir.
 
-![XXE-3](https://github.com/oakkaya098/Web-Security/assets/152402130/16d33f4c-9557-4d10-8ceb-555d51852e32)
+![XXE-3](https://github.com/oakkaya098/Cyber-Security/assets/152402130/89217a75-e1e6-4ff4-806c-e72ffd215836)
 
-![XXE-4](https://github.com/oakkaya098/Web-Security/assets/152402130/d929ae9c-d60b-437b-98b4-6c33b86a4e4d)
+
+![XXE-4](https://github.com/oakkaya098/Cyber-Security/assets/152402130/3033c127-09eb-48c8-a259-6bfedf9969c9)
+
 
 Aşağıdaki XML belgesini incelediğimizde;
 
@@ -71,7 +75,8 @@ Aşağıdaki XML belgesini incelediğimizde;
 
 </ul>
 
-![XXE-5](https://github.com/oakkaya098/Web-Security/assets/152402130/d0b19d0b-3695-43e8-a7e4-6b7b6751e9e2)
+![XXE-5](https://github.com/oakkaya098/Cyber-Security/assets/152402130/c87fb0b3-04c6-42d8-ac76-4b46a56dc616)
+
 
 Temel anlamda XML’in ne olduğunu anladığımıza göre XXE zafiyetinin nasıl sömürülebileceğine geçebiliriz.
 
@@ -79,7 +84,8 @@ Temel anlamda XML’in ne olduğunu anladığımıza göre XXE zafiyetinin nası
 
 Aşağıdaki form’u doldurup, BurpSuite ile sunucuya giden isteği yakalıyoruz.
 
-![XXE-6](https://github.com/oakkaya098/Web-Security/assets/152402130/24ce068a-86b2-4016-b897-3d0cbfa8604c)
+![XXE-6](https://github.com/oakkaya098/Cyber-Security/assets/152402130/51fb4698-c476-4ed7-b0da-60b1da3b712c)
+
 
 BurpSuite ile yakaladığımız isteği incelediğimizde. Sunucuya bir XML belgesi gönderildiğini görüyoruz. 
 Gönderilen XML’e baktığımızda kullanıcıdan alınan email bilgisinin ekrana bastırıldığını görüyoruz. Bu da akıllara XSS’i getiriyor.
@@ -87,17 +93,20 @@ Gönderilen XML’e baktığımızda kullanıcıdan alınan email bilgisinin ekr
 Email değerini XSS payload’ı ile değiştirip sunucuya istek yaptığımızda XSS’in çalışmadığını görürüz. 
 Bunun sebebi XML’in kurallarında da belirttiğimiz gibi < " ' & >gibi karakterleri kullanamıyor olmamızdır. XML belgesinde gönderilen değer ile XSS yapmak için CDATA kulllanılmalıdır.
 
-![XXE-7](https://github.com/oakkaya098/Web-Security/assets/152402130/2f214935-707b-4ed4-a8e3-eacea4f6b8c2)
+![XXE-7](https://github.com/oakkaya098/Cyber-Security/assets/152402130/1dd5f848-62bd-40ce-a5e4-fec45b65acf8)
+
 
 Kendimizin bir döküman tanımı oluşturabilip oluşuramayacağını anlamak için gönderilen XML üzerinde bir döküman tanımı yapıp sunucuya öyle istekte bulunuyoruz.
 
 Kullanıcıdan alınan email değerinin ekrana basıldığını gördüğümüzden dolayı &isim;‘i email etiketinde çağırıyoruz.
 
-![XXE-8](https://github.com/oakkaya098/Web-Security/assets/152402130/83441531-d7f7-435f-93ea-0bea41ec72e0)
+![XXE-8](https://github.com/oakkaya098/Cyber-Security/assets/152402130/52b65142-4bad-4335-b41e-168ed807e577)
+
 
 Sunucudan dönen yanıtta Sefa’yı görebildiğimize göre döküman tanımı yapabiliyoruz.
 
-![XXE-9](https://github.com/oakkaya098/Web-Security/assets/152402130/50d23497-2c26-49d7-a917-dd4a3f3c768b)
+![XXE-9](https://github.com/oakkaya098/Cyber-Security/assets/152402130/e2df45a7-21b1-42b5-adcf-c60df2518364)
+
 
 Kendi döküman tanımımızı yapabildiğimizi öğrendikten sonra bize bir sürü yeni özellik açılıyor.
 
@@ -114,11 +123,13 @@ Aşağıdaki XML dosyası;
   
 </ul>
 
-![XXE-10](https://github.com/oakkaya098/Web-Security/assets/152402130/795b6417-10a9-445f-abe9-221fc916bc52)
+![XXE-10](https://github.com/oakkaya098/Cyber-Security/assets/152402130/557266e3-a784-4c36-b37e-55495c88cdfa)
+
 
 Aşağıdaki yanıtı incelediğimizde, gizliDosya.txt dosyasının içeriğini görebiliyoruz.
 
-![XXE-11](https://github.com/oakkaya098/Web-Security/assets/152402130/0e868258-1ec7-4421-aaaa-ee9fb2b3448d)
+![XXE-11](https://github.com/oakkaya098/Cyber-Security/assets/152402130/53124a6e-6eb6-4188-a335-737bad24ce1f)
+
 
 <b> Sonuç : </b>
 
