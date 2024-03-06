@@ -38,19 +38,22 @@ Daha iyi anlaşılması için portswiggerın IDOR labına bakalım,
 <br>
 
 
-![IDOR-1](https://github.com/oakkaya098/Web-Security/assets/152402130/5766c480-b0a4-474c-8d6d-2cf64cd1fd12)
+![IDOR-1](https://github.com/oakkaya098/Cyber-Security/assets/152402130/b6e04a3e-0e80-44f3-8e49-f87efdecda22)
 
 Live chat opsiyonuna baktığımızda Hal adında birisi ile konuşabiliyoruz. View transcript seçeneği ise yaptığımız konuşmaları download etmemize olanak sağlıyor. Bu isteği burp suite ile yakalıyoruz.
 
-![IDOR-2](https://github.com/oakkaya098/Web-Security/assets/152402130/d5840707-1a3f-4e9c-a329-6dacc6886f67)
+![IDOR-2](https://github.com/oakkaya098/Cyber-Security/assets/152402130/1f88c593-0b26-4fa0-9b5f-fb9261fec588)
+
 
 Bakıyoruz ki view transcript bir get komutu çalıştırıp “4.txt” adında bir dosyayı indiriyor. Yani “1/2/3.txt” gibi dosyalar olarabilir. “4.txt” yerine “1/2/3.txt” gibi dosyaları deneyelim. 
 
-![IDOR-3](https://github.com/oakkaya098/Web-Security/assets/152402130/197aa3e7-4240-4248-ae22-55707becc72b)
+![IDOR-3](https://github.com/oakkaya098/Cyber-Security/assets/152402130/0374bf7a-6799-461d-833e-73ae0b96c19c)
+
 
 “1.txt” denediğimizde indirdi ve başka bir kullanıcının mesaj içeriğine ulaştık. Ve başka bir kullanıcının şifre bilgisini öğrendik. 
 
-![IDOR-4](https://github.com/oakkaya098/Web-Security/assets/152402130/a97a2da8-66d8-4504-bb3d-f2bd2b6c0ebb)
+![IDOR-4](https://github.com/oakkaya098/Cyber-Security/assets/152402130/5e358f1c-5919-4153-9263-c6f76f34f497)
+
 
 User name : carlos
 
@@ -60,7 +63,8 @@ Password : 1gi9*******
 
 ‘User name’ bilgisi laba giriş yaparken veriliyor.
 
-![IDOR-5](https://github.com/oakkaya098/Web-Security/assets/152402130/59817303-6af8-49fd-a081-ec1501a34167)
+
+![IDOR-5](https://github.com/oakkaya098/Cyber-Security/assets/152402130/68e9bfc7-f9af-4a39-b8ee-ef69dfe92800)
 
 
 
