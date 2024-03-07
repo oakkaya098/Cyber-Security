@@ -116,3 +116,17 @@ MFA, bilgisayar korsanlarının sisteme veya platforma girmek için birden fazla
   <li> Çevrimiçi hesaplarınızın çok faktörlü kimlik doğrulama ile korunduğunu bilmek size daha fazla huzur verebilir ve kimlik hırsızlığı ve finansal dolandırıcılık riskini azaltabilir. </li>
 
 </ul>
+
+<h2> Multi-Factor Authentication Dezavantajları </h2>
+
+<ul>
+
+  <li> İkinci faktörünüzü alacak cihaza veya sisteme erişiminiz yoksa ve kullanıcı erişimini doğrulamak için yedek kaynaklar ayarlamadıysanız, belirli bir uygulamaya veya sisteme erişim izni alamazsınız.  </li>
+
+  <li> Geleneksel olarak, bir işletme şirket içi donanım gerektiren ve mevcut kimlik çözümleriyle entegre olması gereken bir çözüm kullanıyorsa, çok faktörlü kimlik doğrulama oldukça pahalı olabilir. </li>
+
+  <li> Sisteminizde oturum açmak ve bir mobil cihaz ya da token kullanarak doğrulama yapmak için gereken süre zahmetli olabilir. </li>
+
+  <li> Çok faktörlü kimlik doğrulamayı tüm işletmede uygulamak zordur, çünkü bunu tam olarak uygulamak genellikle kullanıcılara bırakılır. BT yöneticileri, bir işletmenin çok faktörlü kimlik doğrulama kullanımına ilişkin her zaman bilgi sahibi olmayabilir. </li>
+
+</ul>
