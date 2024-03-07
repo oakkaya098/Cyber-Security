@@ -5,6 +5,7 @@ EDR tipik tehditleri önlemeye destek olan antivirüs yazılımlarından farklı
 
 <h2> EDR'nin Temel Bileşenleri Nelerdir? </h2>
 EDR sistemleri şirket yapısına ve sistemin büyüklüğüne göre farklı mimari örüntülere sahip olsa da tipik bir EDR sistemi aşağıdaki bileşenlerden oluşur:
+<p></p>
 
 <ul>
   <li> <b> Uç Nokta Verilerini Toplama : </b> Her bilgisayarda bir yazılım aracı vasıtasıyla uç noktalardan veri toplanır. Söz konusu veriler EDR’nin bulut tabanlı platformuna gönderilir. </li>
