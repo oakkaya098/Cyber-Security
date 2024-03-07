@@ -1,8 +1,8 @@
-<h1 align="center"> Modern Web Nasıl Çalışır? </h1>
+<h1 align=center> Modern Web Nasıl Çalışır? </h1>
 
 <ul>
 
-  <li> Bilgisayar ilk açıldığında 192.168.1.0 broadcast yapar ve IP adresi ister. Alacağı IP'yi DHCP protokolü verir. </li>
+  <li> Örneğin; Bilgisayar ilk açıldığında DHCP protokolü 192.168.1.0 üzerinden broadcast yapar. IP verilecek bilgisayara IP'yi DHCP protokolü verir. </li>
 
 <p></p>
 
@@ -106,7 +106,7 @@ Burada bazı sorunlar çıkmaya başlıyor.
 
   <li> Eğer session diskte tutuluyorsa bu kullanıcının tüm requestler'de aynı yere gelmesi gerekir. Çünkü session ilk sunucuda bulunuyor, diğer sunucularda bunun bilgisi yok. Eğerki ilk sunucu çöker ise kullanıcı log-out olur. </li>
 
-  <li> <b> DataBaseler'den biri düşerse ne olacak? </b> Birden fazla DataBase olur ise SQL Proxy servisine ihtiyaç vardır. Tüm SQL sorguları SQL Proxy'e sorulur ve SQL Proxy hangi DataBase uygun ise ona sorar. Günümüzde "MicroService" yapıları buradan ortaya çıkmaktadır. </li>  
+  <li> <b> DataBaseler'den biri düşerse ne olacak? : </b> Birden fazla DataBase olur ise SQL Proxy servisine ihtiyaç vardır. Tüm SQL sorguları SQL Proxy'e sorulur ve SQL Proxy hangi DataBase uygun ise ona sorar. Günümüzde "MicroService" yapıları buradan ortaya çıkmaktadır. </li>  
 
   <li> <b> Statik Dosyalar : </b> Sunucuya bir dosya yüklendiğinde sadece bir tanesinde tutuluyormuş gibi olur. Bunun olmaması için CDN (Content Delivery Network) gereklidir. </li>
 
