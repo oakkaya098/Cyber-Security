@@ -6,6 +6,7 @@
 
 <p></p>
 
+![1](https://github.com/oakkaya098/Cyber-Security/assets/152402130/a2020582-1014-45ab-b825-7d3d82b1949c)
 
   
 
@@ -17,7 +18,8 @@
 
 <p></p>
 
-![2](https://github.com/oakkaya098/Web-Security/assets/152402130/34b8a485-84d9-4cf1-8c4c-236c3c1c74f6)
+![2](https://github.com/oakkaya098/Cyber-Security/assets/152402130/21cf87a8-8916-4328-9ed3-ad3102b2d343)
+
 
   <p></p>
 
@@ -59,7 +61,8 @@ x.com'un IP adresini aldığımızda, bu IP adresinin 80 portuna TCP / SYN paket
 
 <p></p>
 
-![3](https://github.com/oakkaya098/Web-Security/assets/152402130/edb475fe-da85-4a10-8d5f-4a04826ea03a)
+![3](https://github.com/oakkaya098/Cyber-Security/assets/152402130/e41bad58-7bb0-45ba-ac22-8e2bf5131ff3)
+
 
 <p></p>
 
@@ -85,7 +88,8 @@ Host firmasının konfigürasyonuna göre hangi siteye gidiliyor ise /var/www/..
 
 <p></p>
 
-![4](https://github.com/oakkaya098/Web-Security/assets/152402130/9efc8ee8-c47f-4601-95c0-beb5bc235465)
+![4](https://github.com/oakkaya098/Cyber-Security/assets/152402130/854cfefd-ec47-4e57-9403-ce6a97625827)
+
 
 <p></p>
 
@@ -93,7 +97,8 @@ Bunun bir e-ticaret sitesi olduğunu düşünelim. Çok satış yaptığı döne
 
 <p></p>
 
-![5](https://github.com/oakkaya098/Web-Security/assets/152402130/6cf07899-b2ae-4655-b390-9e8a85e7b586)
+![5](https://github.com/oakkaya098/Cyber-Security/assets/152402130/efee5b3f-dc4e-454a-9d1b-76827f39caf9)
+
 
 Burada bazı sorunlar çıkmaya başlıyor.
 
@@ -111,7 +116,8 @@ Bütün web uygulamalarında statik dosyalarda aynı içerik olması için CDN (
 
 <p></p>
 
-![6](https://github.com/oakkaya098/Web-Security/assets/152402130/85de2d45-ebf9-4357-8736-3ab45af21f0d)
+![6](https://github.com/oakkaya098/Cyber-Security/assets/152402130/ef208289-ba79-4603-a789-323bd892d76f)
+
 
 <p></p>
 
