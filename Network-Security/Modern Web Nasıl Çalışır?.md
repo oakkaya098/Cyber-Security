@@ -50,12 +50,32 @@
 
   
 </ul>
+<p></p>
+
+<p></p>
+
+<ul type=disc>
+
+  <li> <b> Resolver DNS : </b> Sunucunuzun internet üzerinde farklı kaynakların gerçekleştireceği recursive query yani dış sorgu işlemlerine cevap vermesini sağlayan bir yapıdır. </li>
+
+  <li> <b> Root DNS : </b> DNS sisteminin en üstünde bulunurlar ve sunucu adı – ip dönüşümünün başladığı yerdir. Gelen istekleri TLD(Top Level Domain – Üst düzey Etki Alanı) sunucularına yönlendirirler. </li> 
+
+  <li> <b> Top Level Domain (TLD) : </b> Bir alan adının son parçasının sorgulanmasını sağlayan bir sunucudur. (*.com, *.org vb.) </li>
+
+  <li> <b> Authoritative DNS : </b> Geliştiricilerin herkese açık DNS adlarını yönetmek için kullandıkları bir güncelleme mekanizması sağlar. Kendisine yapılan DNS sorgularını yanıtlar ve bilgisayarların birbirleriyle iletişim kurabilmesi için alan adlarını IP adreslerine çevirir. </li>
+</ul>
 
 <h2> Riskler Nelerdir? </h2>
 
 Başka biri 8.8.8.8’e gittiğinde bütün süreç tekrar yaşanmayacak çünkü TTL’lere göre Cache’de tutma mekanizması vardır.
 
-<ul>
+<p></p>
+
+<ul type=disc>
+  <li> <b> Time-to-Live (TTL) : </b> İnternete gönderilen bir verinin geçerli kalacağı süreyi ifade eden bir değerdir. Bu süre genelde saniye cinsinden belirtilir. Çeşitli amaçlarla kullanılan TTL sayesinde internete yüklenen verilerin sonsuz süre geçerli olması önlenmiş olur.  </li>
+</ul>
+
+<ul type=disc>
 
   <li> Bu Cache poison edilebilirse x.com’a gidecek HTTP paketleri istediğimiz gibi yönlendirilebilir. </li>
 
@@ -144,6 +164,9 @@ Bütün web uygulamalarında statik dosyalarda aynı içerik olması için CDN (
 
 <p></p>
 
+<ul type=disc> <li> <b> Content Delivery Network (CDN) : </b> Bir web sitesine erişmek isteyen kullanıcıları, coğrafi olarak kendilerine en yakın yerde konumlanmış sunuculara yönlendiren ve bu sunucular üzerinden hizmet almalarını sağlayan bir sunucu ağı sistemidir. </li> </ul>
+<p></p>
+
 ![6](https://github.com/oakkaya098/Cyber-Security/assets/152402130/ef208289-ba79-4603-a789-323bd892d76f)
 
 
@@ -151,9 +174,9 @@ Bütün web uygulamalarında statik dosyalarda aynı içerik olması için CDN (
 
 Full text searchler'in DataBase'ler üzerinden yapılması sonucu ortaya çıkan maaliyetleri engellemek için <b> Elastic Search </b> kullanılır.
 
-<ul>
+<ul type=disc>
 
-  <li> <b> Elastic Search </b> ElasticSearch, BigData yani büyük veriler ile çalışan şirketlerin, içerik arama, veri analizi, sorgulamalar ve öneriler gibi işlemlerde özellikle performans kabiliyetleri, güçlü ve esnek olmasından dolayı tercih ettiği bir search engine’dir. </li>
+  <li> <b> Elastic Search : </b> ElasticSearch, BigData yani büyük veriler ile çalışan şirketlerin, içerik arama, veri analizi, sorgulamalar ve öneriler gibi işlemlerde özellikle performans kabiliyetleri, güçlü ve esnek olmasından dolayı tercih ettiği bir search engine’dir. </li>
   
 </ul>
 
