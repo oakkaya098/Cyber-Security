@@ -18,3 +18,13 @@ OAuth, genellikle 4 rol içerir:
   <li> <b> Kaynak Sunucu (Resource Server) : </b> Kullanıcının verilerini barındıran sunucu, erişim belirteçlerini doğrular ve istemci uygulamalara veriye erişim izni sağlar. </li>
 
 </ul>
+
+OAuth'un ana kullanım senaryoları şunlardır:
+
+<ul>
+  <li> <b> Üçüncü Taraf Uygulama Entegrasyonu : </b> Kullanıcılar, bir üçüncü taraf uygulamanın belirli kaynaklarına erişim izni verebilirler. Örneğin, bir kullanıcı, bir sosyal medya platformunda başka bir uygulamanın hesap bilgilerini kullanarak oturum açmasına olanak tanıyan bir uygulamaya erişim izni verebilir. </li>
+
+  <li> <b> API Yetkilendirme : </b> OAuth, bir API'nin belirli kaynaklarına erişim yetkilendirme için yaygın olarak kullanılır. Kullanıcılar, bir uygulamanın API'sine erişmek için OAuth token'larını kullanırlar ve bu token'lar, kullanıcının API'ye erişim iznini belirtir. </li>
+
+  <li> <b> Tek Oturum Açma (Single Sign-On - SSO) : </b> OAuth, tek oturum açma işlemlerinde de kullanılabilir. Bir uygulama, kullanıcının diğer uygulamalara erişim izni almak için OAuth protokolünü kullanabilir ve kullanıcı, tek bir oturum açma işlemiyle birden fazla uygulamaya erişebilir. </li>
+</ul>
