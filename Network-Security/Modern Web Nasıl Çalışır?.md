@@ -7,9 +7,7 @@
 <p></p>
 
 
-![1](https://github.com/oakkaya098/Cyber-Security/assets/152402130/24c57d74-d662-428c-9a4b-3a66c4195800)
-
-
+![1](https://github.com/oakkaya098/Cyber-Security/assets/152402130/6db3b245-64f5-4da2-90c5-7967563de79a)
   
 
   <li> Bilgisayarlar birbiriyle haberleşmek için MAC adreslerini öğrenir. Bunun için Layer 2’de ARP protokolünü kullanırlar ve OS ARP Table oluşturulur. <br>
