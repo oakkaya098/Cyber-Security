@@ -7,7 +7,7 @@
 <p></p>
 
 
-![1](https://github.com/oakkaya098/Cyber-Security/assets/152402130/6acdceae-c2c7-49f8-ad44-f241c6800b52)
+![1](https://github.com/oakkaya098/Cyber-Security/assets/152402130/24c57d74-d662-428c-9a4b-3a66c4195800)
 
 
   
