@@ -29,7 +29,7 @@ Bir saldırı durumunda, yalnızca web siteniz ve işiniz risk altında değildi
 Bilgisayar korsanları sadece web sitenize erişimi engellemekle kalmaz, bazı durumlarda müşteri bilgilerini ve kimlik bilgilerini de ele geçirebilir. 
 WAF, web sitenize gelen trafiğin izlenmesini ve korunmasını sağlayarak müşteri verilerinin korunmasına yardımcı olur. </li> </ul>
 
-<ul> <li> <b> Maliyetten tasarruf sağlar </b> İşletmenizin veya web uygulamanızın tasarruf etmesine yardımcı olacak ilk şey, bir siber saldırı durumunda karşılaşabileceğiniz zararlardır. 
+<ul> <li> <b> Maliyetten tasarruf sağlar : </b> İşletmenizin veya web uygulamanızın tasarruf etmesine yardımcı olacak ilk şey, bir siber saldırı durumunda karşılaşabileceğiniz zararlardır. 
 Uzun davalar ve kötü tanıtım, şirketlere bir miktar mali sıkıntıya neden olabilir. Bununla birlikte, WAF, kaynaklardan tasarruf etmenize yardımcı olabilir. 
 Trafiği manuel olarak izlemek ve site trafiğinizin uygun olduğundan emin olmak için bir profesyonele ihtiyacınız kalmaz. </li> </ul>
 
@@ -49,7 +49,7 @@ Bu seçenek, donanım tabanlı WAF ile aynı işlevi görür, ancak şirket içi
 Ancak yazılım tabanlı WAF, web uygulamasını yavaşlatan trafiği izleme ve filtreleme süresini artırır. 
 Bu seçenek, maliyetleri düşük tutarken kendilerini koruması gereken küçük ve orta ölçekli işletmeler için ideal olabilir. </li> </ul>
 
-<ul> <li> <b> Bulut tabanlı WAF (Cloud based WAF) </b> Bulut tabanlı bir WAF, bir SaaS veya bir hizmet olarak yazılım yapısı olarak sunulur. Bu seçenek ile WAF tamamen bulutta bulunur ve her şey servis sağlayıcı tarafından yönetilir. 
+<ul> <li> <b> Bulut tabanlı WAF (Cloud based WAF) : </b> Bulut tabanlı bir WAF, bir SaaS veya bir hizmet olarak yazılım yapısı olarak sunulur. Bu seçenek ile WAF tamamen bulutta bulunur ve her şey servis sağlayıcı tarafından yönetilir. 
 Bu, hizmet sağlayıcı gerektiğinde optimize edip güncelleyeceğinden, işletmelerin bir WAF’i dağıtması ve sürdürmesi için en basit yolu oluşturur. 
 Bu seçenek, WAF’lerini sürdürmek ve yönetmek için sınırlı BT kaynaklarına sahip işletmeler için en iyisi olabilir. </li> </ul>
 
@@ -62,7 +62,7 @@ WAF’in önlediği saldırılardan bazıları aşağıdakileri içerir:
 
 <ul> <li> <b> Korunan bilgilere yetkisiz erişim : </b> Bilgisayar korsanları, ticari işlemleri veya müşteri bilgilerini içerebilen web siteleri için önemli olan bilgileri sızdırmaya çalışabilir. </li> </ul>
 
-<ul> <li> <b> SQL İnjections </b> SQL injections, web uygulamasının veri tabanını hedefleyerek çalışır. </li> </ul>
+<ul> <li> <b> SQL İnjections : </b> SQL injections, web uygulamasının veri tabanını hedefleyerek çalışır. </li> </ul>
 
 <ul> <li> <b> Yüksek öncelikli veri maruziyeti : </b> Kurumsal casusluk, rakiplerin rekabet avantajını yararsız ve herkesin görebileceği hale getirebileceği için yüksek öncelikli verilere maruz kalmayı tercih eder. </li> </ul>
 
