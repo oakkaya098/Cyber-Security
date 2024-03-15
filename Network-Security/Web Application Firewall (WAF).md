@@ -37,7 +37,7 @@ Trafiği manuel olarak izlemek ve site trafiğinizin uygun olduğundan emin olma
 
 <h1> Web Application Firewalls (WAF) Türleri </h1>
 
-<ul> <li> <b> Donanım tabanlı WAF (Hardware-based WAF): </b> Donanım tabanlı bir WAF, LAN veya yerel alan ağı içinde yerel olarak kurulan ve fiziksel bir donanım parçasına dağıtılan bir WAF’dir. 
+<ul> <li> <b> Donanım tabanlı WAF (Hardware-based WAF) : </b> Donanım tabanlı bir WAF, LAN veya yerel alan ağı içinde yerel olarak kurulan ve fiziksel bir donanım parçasına dağıtılan bir WAF’dir. 
 İşletim sistemi, cihaz içinde çalışır ve WAF için tüm güncellemeleri destekler. 
 Bu seçenek bir donanım parçası üzerinde çalıştığından, otomatik olarak artıları ve eksileri vardır. 
 Fiziksel ekipmana sahip olmak ve bakımını üstlenmek pahalıdır. Bu da onu diğer WAF türlerinden daha yüksek maliyetli bir hale getirir. 
